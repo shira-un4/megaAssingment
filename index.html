@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="bg-img">
+
+        <div class="container">
+
+            <div class="head">
+                <h3 style="color: white; margin-top: 20px; font-size: 30px;">Unit Convertor</h3>
+            </div>
+
+            <div><input type="text" id="input" placeholder="Value in Feet" ></div>
+            <div><button class="btn" onclick="cmCovertor()">Covert to Centimeter</button></div>
+            <div ><span id="Result"></span></div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script>
+        function cmCovertor(){
+           const numIn = document.getElementById("input").value;
+           //console.log(numIn);
+           let cmValue = numIn * 30.48;
+           document.getElementById("Result").innerHTML = `= ${cmValue}  Cm`
+
+
+        }
+    </script>
+
+   
+
+</body>
+</html>

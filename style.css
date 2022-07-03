@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-img {
+    background-image: url(https://t4.ftcdn.net/jpg/02/99/84/89/360_F_299848927_S0EwX0P6HWGigW6qZWFIBaczKMQuq5D9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    height: 300px;
+    width: 650px;
+    border-radius: 60px;
+    display: grid;
+    grid-gap: -1em;
+    justify-content: center;
+
+
+    background-color: rgb(62, 61, 61);
+    
+}
+
+#input{
+    border-radius: 10px;
+    padding: 5px;
+    width: 210px;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 5px;
+    width: 210px;
+    box-shadow: 2px 2px;
+}
+
+#Result{
+    color: aliceblue;
+    font-size: 20px;
+}
